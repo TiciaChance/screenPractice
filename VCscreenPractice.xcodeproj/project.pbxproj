@@ -15,6 +15,7 @@
 		1167BCEA1DAA79BE00AF8BB3 /* VCscreenPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1167BCE91DAA79BE00AF8BB3 /* VCscreenPracticeTests.swift */; };
 		1167BCF51DAA79BE00AF8BB3 /* VCscreenPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1167BCF41DAA79BE00AF8BB3 /* VCscreenPracticeUITests.swift */; };
 		1167BD031DAA7CBA00AF8BB3 /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1167BD021DAA7CBA00AF8BB3 /* MusicListVC.swift */; };
+		1167BD051DAA8B5600AF8BB3 /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1167BD041DAA8B5600AF8BB3 /* PlaySongVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1167BCF41DAA79BE00AF8BB3 /* VCscreenPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCscreenPracticeUITests.swift; sourceTree = "<group>"; };
 		1167BCF61DAA79BE00AF8BB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1167BD021DAA7CBA00AF8BB3 /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
+		1167BD041DAA8B5600AF8BB3 /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				1167BCDB1DAA79BE00AF8BB3 /* Assets.xcassets */,
 				1167BCDD1DAA79BE00AF8BB3 /* LaunchScreen.storyboard */,
 				1167BCE01DAA79BE00AF8BB3 /* Info.plist */,
+				1167BD041DAA8B5600AF8BB3 /* PlaySongVC.swift */,
 			);
 			path = VCscreenPractice;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1167BD031DAA7CBA00AF8BB3 /* MusicListVC.swift in Sources */,
+				1167BD051DAA8B5600AF8BB3 /* PlaySongVC.swift in Sources */,
 				1167BCD71DAA79BE00AF8BB3 /* LoginVC.swift in Sources */,
 				1167BCD51DAA79BE00AF8BB3 /* AppDelegate.swift in Sources */,
 			);
