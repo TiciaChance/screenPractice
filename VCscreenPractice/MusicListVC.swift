@@ -25,8 +25,21 @@ class MusicListVC: UIViewController {
     }
   
     @IBAction func rdScreenTapped(_ sender: AnyObject) {
+        
+        //trigger segue btwn the 2 screens instead of ctrl drag
+        performSegue(withIdentifier: "PlaySongVC", sender: "Shake It Off")
+        
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if let destination = segue.destination as? PlaySongVC {
+            if let song = sender as? String {
+                destination.selectedSong = song
+
+            }
+        }
+    }
     
     
     override func didReceiveMemoryWarning() {

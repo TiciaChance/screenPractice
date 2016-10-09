@@ -46,7 +46,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <segue destination="Kb4-Lb-GET" kind="showDetail" identifier="songVC" id="HHo-5b-KsA"/>
+                        <segue destination="Kb4-Lb-GET" kind="showDetail" identifier="PlaySongVC" id="HHo-5b-KsA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
